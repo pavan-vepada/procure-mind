@@ -68,6 +68,8 @@ QUESTIONNAIRE = [
     {"id": "Q4", "question": "What is your installed capacity in tonnes per month?", "mandatory": False},
     {"id": "Q5", "question": "What is your delivery lead time from purchase order, in days?", "mandatory": False},
     {"id": "Q6", "question": "Do you accept payment at 60 days from invoice? If not, state your terms.", "mandatory": False},
+    {"id": "Q7", "question": "State your latest annual turnover and the year you were established.", "mandatory": False},
+    {"id": "Q8", "question": "What is your current credit rating, if rated? Name the agency.", "mandatory": False},
 ]
 
 
@@ -159,6 +161,9 @@ def vendor_a(lines):
         ("Plant capacity", "1,800 MT per month"),
         ("Delivery", "10 days from PO"),
         ("Payment", "45 days from invoice. 60 days not acceptable."),
+        ("Turnover (FY 2025-26)", "Rs. 85 crore"),
+        ("Established", "2009"),
+        ("Credit rating", "CRISIL BBB+ / Stable"),
     ]:
         info.append(row)
     info.column_dimensions["A"].width = 24
@@ -212,6 +217,8 @@ def vendor_b(lines):
         "4. Capacity: 2,500 tonnes per month across two corrugators.",
         "5. Lead time: 14 days from receipt of purchase order.",
         "6. Payment: 60 days from invoice date is acceptable.",
+        "7. Turnover and standing: Rs. 240 crore in FY 2025-26. In business since 1994.",
+        "8. Credit rating: CRISIL A- / Stable.",
     ]
     doc = SimpleDocTemplate(str(folder / "Kraftline_Offer_KL-2609.pdf"), pagesize=A4, topMargin=40, bottomMargin=40)
     doc.build([
@@ -280,7 +287,8 @@ def vendor_c(lines):
         "Our plant is certified to ISO 9001:2015 (certificate attached, valid through 30 November 2027) and holds "
         "FSC chain of custody. A burst and compression test report is issued for each production lot and travels "
         "with the shipping documents. Installed capacity is 6,000 tonnes a month. Please allow 35 days from order "
-        "to arrival at port. We are unable to offer open credit to new customers.")
+        "to arrival at port. We are unable to offer open credit to new customers. Group revenue was USD 60 million in "
+        "2025 and we have been operating since 2001. We are not rated by an Indian credit rating agency.")
     doc.save(str(folder / "PacificCorr_Proposal.docx"))
     iso_certificate(folder / "PCG_ISO9001.pdf", "PacificCorr Global Pte. Ltd.",
                     "TC/QMS/24/2750", "01 December 2024", "30 November 2027")
@@ -357,7 +365,8 @@ def vendor_d(lines):
     iso_certificate(folder / "ISO_cert.pdf", "Maruti Corrugators", "TC/QMS/23/0462", "01 July 2023", "30 June 2026")
     write_email(folder, "Jignesh Patel", "maruticorrugators@mail.example", "Rate", "2026-10-05T18:47:00+05:30",
                 "Sir rate card photo attached. ISO certificate also attached. Test report we give with every lot "
-                "no problem. Capacity 600 ton monthly. 60 days payment not possible sir, 30 days.\n\n"
+                "no problem. Capacity 600 ton monthly. 60 days payment not possible sir, 30 days. Turnover around 6 crore, "
+                "unit running since 2016.\n\n"
                 "Jignesh Patel\nMaruti Corrugators\nSent from my phone",
                 ["IMG_20261005_184212.jpg", "ISO_cert.pdf"])
     return {"vendor": "Maruti Corrugators", "format": "Phone photo of a printed rate card",

@@ -1,11 +1,20 @@
 // Small shared pieces of UI.
-import { GATE, MODE_LABEL } from "../format.js";
+import { GATE, MODE_LABEL, RISK } from "../format.js";
 
 export function GateBadge({ gate, short }) {
   const g = GATE[gate] || GATE.unverified;
   return (
     <span className={`inline-flex items-center rounded-full px-2 py-0.5 text-[11px] font-medium ring-1 ${g.className}`}>
       {short ? g.short : g.label}
+    </span>
+  );
+}
+
+export function RiskBadge({ level, prefix = "" }) {
+  const r = RISK[level] || RISK.unknown;
+  return (
+    <span className={`inline-flex items-center gap-1.5 rounded-full px-2 py-0.5 text-[11px] font-medium ring-1 ${r.className}`}>
+      <span className={`h-1.5 w-1.5 rounded-full ${r.dot}`} />{prefix}{r.label}
     </span>
   );
 }

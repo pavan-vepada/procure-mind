@@ -31,6 +31,14 @@ export const STATUS = {
 
 export const MODE_LABEL = { direct: "Direct text", ocr: "OCR", vision: "Vision", "ocr+vision": "OCR + vision", unsupported: "Not read" };
 
+// Risk levels. Each has a word as well as a colour, so the meaning never rests on colour alone.
+export const RISK = {
+  low: { label: "Low", className: "bg-emerald-50 text-emerald-700 ring-emerald-200", dot: "bg-emerald-500" },
+  medium: { label: "Medium", className: "bg-amber-50 text-amber-800 ring-amber-200", dot: "bg-amber-500" },
+  high: { label: "High", className: "bg-rose-50 text-rose-700 ring-rose-200", dot: "bg-rose-500" },
+  unknown: { label: "No information", className: "bg-slate-100 text-slate-600 ring-slate-300", dot: "bg-slate-400" },
+};
+
 export const STAGE = {
   draft: { label: "Draft", tone: "slate", next: "Continue drafting" },
   awaiting_replies: { label: "Sent, awaiting replies", tone: "amber", next: "Add vendor replies" },

@@ -50,6 +50,18 @@ class DocumentInfo(BaseModel):
     valid_until: str | None = Field(description="For certificates: expiry date as YYYY-MM-DD, exactly as printed.")
 
 
+class Financials(BaseModel):
+    """What the vendor says about its own financial standing. Recorded as written; code converts and judges."""
+    turnover_value: float | None = Field(description="Annual turnover or revenue, the number exactly as written.")
+    turnover_unit: Literal["crore", "lakh", "million", "billion", "units"] | None = Field(description="The scale word used with it.")
+    turnover_currency: str | None = Field(description="ISO code such as INR or USD.")
+    established_year: int | None = Field(description="Year the vendor says it was established or started operating.")
+    credit_rating: str | None = Field(description="The rating exactly as written, e.g. 'CRISIL BBB+ / Stable'. Null if unrated or not stated.")
+    states_unrated: bool = Field(description="True only if the vendor explicitly says it has no rating.")
+    source_document: str | None
+    source_quote: str | None = Field(description="Verbatim snippet containing the turnover or rating.")
+
+
 class VendorExtraction(BaseModel):
     vendor_name: str
     prices: list[PriceEntry]
@@ -61,4 +73,5 @@ class VendorExtraction(BaseModel):
     validity_days: int | None
     answers: list[Answer]
     documents: list[DocumentInfo]
+    financials: Financials | None = Field(default=None, description="Null if the vendor says nothing about turnover, age or credit rating.")
     open_issues: list[str] = Field(description="Things a buyer must clarify with this vendor before comparing or awarding.")

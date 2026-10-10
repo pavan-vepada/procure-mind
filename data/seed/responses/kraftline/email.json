@@ -1,0 +1,11 @@
+{
+  "from_name": "Meera Shah",
+  "from_email": "meera.shah@kraftline.example",
+  "subject": "Kraftline offer KL/2609/26 against your RFQ",
+  "received_at": "2026-10-03T16:05:00+05:30",
+  "body": "Dear Team,\n\nOur offer and ISO certificate are attached for your kind consideration.\n\nWarm regards,\nMeera Shah\nKey Accounts, Kraftline Industries",
+  "attachments": [
+    "Kraftline_Offer_KL-2609.pdf",
+    "Kraftline_ISO_9001.pdf"
+  ]
+}

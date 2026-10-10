@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-slate-50 text-slate-800 antialiased;
+  font-family: Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+.num {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Markdown inside analyst answers */
+.answer p { margin: 0.4rem 0; }
+.answer ul, .answer ol { margin: 0.4rem 0; padding-left: 1.25rem; }
+.answer ul { list-style: disc; }
+.answer ol { list-style: decimal; }
+.answer li { margin: 0.15rem 0; }
+.answer h1, .answer h2, .answer h3 { font-weight: 600; margin: 0.8rem 0 0.3rem; }
+.answer table { border-collapse: collapse; margin: 0.5rem 0; font-size: 0.75rem; }
+.answer th, .answer td { border: 1px solid #e2e8f0; padding: 0.25rem 0.5rem; text-align: left; }
+.answer code { background: #f1f5f9; padding: 0 0.25rem; border-radius: 0.25rem; font-size: 0.8em; }

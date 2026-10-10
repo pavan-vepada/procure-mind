@@ -1,0 +1,1162 @@
+{
+  "note": "True values behind the vendor files. Used only to score extraction, never read by the app.",
+  "fx_usd_inr": 88.0,
+  "vendors": {
+    "shree_balaji": {
+      "vendor": "Shree Balaji Packaging Pvt. Ltd.",
+      "format": "Excel, own layout",
+      "freight": "included",
+      "lines": {
+        "25": {
+          "quoted_value": 10785.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 107.85,
+          "status": "quoted"
+        },
+        "26": {
+          "quoted_value": 11466.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 114.66,
+          "status": "quoted"
+        },
+        "30": {
+          "quoted_value": 14557.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 145.575,
+          "status": "quoted"
+        },
+        "27": {
+          "quoted_value": 14617.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 146.175,
+          "status": "quoted"
+        },
+        "28": {
+          "quoted_value": 25167.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 251.67,
+          "status": "quoted"
+        },
+        "29": {
+          "quoted_value": 30177.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 301.775,
+          "status": "quoted"
+        },
+        "23": {
+          "quoted_value": 2508.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 25.08,
+          "status": "quoted"
+        },
+        "20": {
+          "quoted_value": 2687.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 26.875,
+          "status": "quoted"
+        },
+        "22": {
+          "quoted_value": 2667.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 26.67,
+          "status": "quoted"
+        },
+        "13": {
+          "quoted_value": 2786.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 27.86,
+          "status": "quoted"
+        },
+        "21": {
+          "quoted_value": 3327.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 33.27,
+          "status": "quoted"
+        },
+        "14": {
+          "quoted_value": 3503.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 35.035,
+          "status": "quoted"
+        },
+        "15": {
+          "quoted_value": 4084.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 40.845,
+          "status": "quoted"
+        },
+        "19": {
+          "quoted_value": 4260.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 42.6,
+          "status": "quoted"
+        },
+        "16": {
+          "quoted_value": 4517.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 45.17,
+          "status": "quoted"
+        },
+        "17": {
+          "quoted_value": 5373.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 53.73,
+          "status": "quoted"
+        },
+        "24": {
+          "quoted_value": 5186.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 51.86,
+          "status": "quoted"
+        },
+        "18": {
+          "quoted_value": 6710.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 67.105,
+          "status": "quoted"
+        },
+        "9": {
+          "quoted_value": 226.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 2.26,
+          "status": "quoted"
+        },
+        "7": {
+          "quoted_value": 288.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 2.88,
+          "status": "quoted"
+        },
+        "1": {
+          "quoted_value": 329.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 3.295,
+          "status": "quoted"
+        },
+        "10": {
+          "quoted_value": 382.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 3.825,
+          "status": "quoted"
+        },
+        "8": {
+          "quoted_value": 565.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 5.655,
+          "status": "quoted"
+        },
+        "2": {
+          "quoted_value": 566.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 5.665,
+          "status": "quoted"
+        },
+        "3": {
+          "quoted_value": 631.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 6.31,
+          "status": "quoted"
+        },
+        "11": {
+          "quoted_value": 913.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 9.13,
+          "status": "quoted"
+        },
+        "4": {
+          "quoted_value": 827.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 8.27,
+          "status": "quoted"
+        },
+        "5": {
+          "quoted_value": 994.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 9.945,
+          "status": "quoted"
+        },
+        "12": {
+          "quoted_value": 1072.5,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 10.725,
+          "status": "quoted"
+        },
+        "6": {
+          "quoted_value": 1251.0,
+          "quoted_unit": "per 100 pieces",
+          "currency": "INR",
+          "inr_per_piece": 12.51,
+          "status": "quoted"
+        }
+      },
+      "questionnaire": {
+        "Q1": "Yes, valid to 17 Mar 2028",
+        "Q2": "Yes",
+        "Q3": "No",
+        "Q4": "1800",
+        "Q5": "10",
+        "Q6": "No, 45 days"
+      },
+      "clears_quality_gate": true
+    },
+    "kraftline": {
+      "vendor": "Kraftline Industries Limited",
+      "format": "PDF on letterhead",
+      "freight": "included",
+      "conditional_discount": {
+        "pct": 4,
+        "condition": "annual offtake above Rs. 75,00,000"
+      },
+      "lines": {
+        "1": {
+          "quoted_value": 3.38,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 3.38,
+          "inr_per_piece_after_rebate": 3.2448,
+          "status": "quoted"
+        },
+        "2": {
+          "quoted_value": 5.66,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 5.66,
+          "inr_per_piece_after_rebate": 5.4336,
+          "status": "quoted"
+        },
+        "3": {
+          "quoted_value": 6.82,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 6.82,
+          "inr_per_piece_after_rebate": 6.5472,
+          "status": "quoted"
+        },
+        "4": {
+          "quoted_value": 8.95,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 8.95,
+          "inr_per_piece_after_rebate": 8.592,
+          "status": "quoted"
+        },
+        "5": {
+          "quoted_value": 10.22,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 10.22,
+          "inr_per_piece_after_rebate": 9.8112,
+          "status": "quoted"
+        },
+        "6": {
+          "quoted_value": 12.83,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 12.83,
+          "inr_per_piece_after_rebate": 12.3168,
+          "status": "quoted"
+        },
+        "7": {
+          "quoted_value": 3.12,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 3.12,
+          "inr_per_piece_after_rebate": 2.9952,
+          "status": "quoted"
+        },
+        "8": {
+          "quoted_value": 6.1,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 6.1,
+          "inr_per_piece_after_rebate": 5.856,
+          "status": "quoted"
+        },
+        "9": {
+          "quoted_value": 2.29,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 2.29,
+          "inr_per_piece_after_rebate": 2.1984,
+          "status": "quoted"
+        },
+        "10": {
+          "quoted_value": 4.14,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 4.14,
+          "inr_per_piece_after_rebate": 3.9744,
+          "status": "quoted"
+        },
+        "11": {
+          "quoted_value": 9.13,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 9.13,
+          "inr_per_piece_after_rebate": 8.7648,
+          "status": "quoted"
+        },
+        "12": {
+          "status": "not_quoted",
+          "inr_per_piece": null
+        },
+        "13": {
+          "quoted_value": 29.1,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 29.1,
+          "inr_per_piece_after_rebate": 27.936,
+          "status": "quoted"
+        },
+        "14": {
+          "quoted_value": 37.28,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 37.28,
+          "inr_per_piece_after_rebate": 35.7888,
+          "status": "quoted"
+        },
+        "15": {
+          "quoted_value": 42.93,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 42.93,
+          "inr_per_piece_after_rebate": 41.2128,
+          "status": "quoted"
+        },
+        "16": {
+          "quoted_value": 48.96,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 48.96,
+          "inr_per_piece_after_rebate": 47.0016,
+          "status": "quoted"
+        },
+        "17": {
+          "quoted_value": 54.33,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 54.33,
+          "inr_per_piece_after_rebate": 52.1568,
+          "status": "quoted"
+        },
+        "18": {
+          "quoted_value": 66.82,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 66.82,
+          "inr_per_piece_after_rebate": 64.1472,
+          "status": "quoted"
+        },
+        "19": {
+          "quoted_value": 43.98,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 43.98,
+          "inr_per_piece_after_rebate": 42.2208,
+          "status": "quoted"
+        },
+        "20": {
+          "quoted_value": 26.91,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 26.91,
+          "inr_per_piece_after_rebate": 25.8336,
+          "status": "quoted"
+        },
+        "21": {
+          "quoted_value": 34.46,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 34.46,
+          "inr_per_piece_after_rebate": 33.0816,
+          "status": "quoted"
+        },
+        "22": {
+          "quoted_value": 27.27,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 27.27,
+          "inr_per_piece_after_rebate": 26.1792,
+          "status": "quoted"
+        },
+        "23": {
+          "quoted_value": 24.8,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 24.8,
+          "inr_per_piece_after_rebate": 23.808,
+          "status": "quoted"
+        },
+        "24": {
+          "quoted_value": 51.68,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 51.68,
+          "inr_per_piece_after_rebate": 49.6128,
+          "status": "quoted"
+        },
+        "25": {
+          "quoted_value": 112.77,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 112.77,
+          "inr_per_piece_after_rebate": 108.2592,
+          "status": "quoted"
+        },
+        "26": {
+          "quoted_value": 116.34,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 116.34,
+          "inr_per_piece_after_rebate": 111.6864,
+          "status": "quoted"
+        },
+        "27": {
+          "quoted_value": 153.61,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 153.61,
+          "inr_per_piece_after_rebate": 147.4656,
+          "status": "quoted"
+        },
+        "28": {
+          "status": "not_quoted",
+          "inr_per_piece": null
+        },
+        "29": {
+          "status": "not_quoted",
+          "inr_per_piece": null
+        },
+        "30": {
+          "quoted_value": 148.79,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 148.79,
+          "inr_per_piece_after_rebate": 142.8384,
+          "status": "quoted"
+        }
+      },
+      "questionnaire": {
+        "Q1": "Yes, valid to 09 Aug 2027",
+        "Q2": "Yes",
+        "Q3": "Yes",
+        "Q4": "2500",
+        "Q5": "14",
+        "Q6": "Yes"
+      },
+      "clears_quality_gate": true
+    },
+    "pacificcorr": {
+      "vendor": "PacificCorr Global Pte. Ltd.",
+      "format": "Word, commercials in a paragraph",
+      "freight": "CIF port only; duty and inland freight excluded",
+      "fx_usd_inr": 88.0,
+      "lines": {
+        "1": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 3.0677,
+          "status": "quoted"
+        },
+        "2": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 5.4701,
+          "status": "quoted"
+        },
+        "3": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 6.0614,
+          "status": "quoted"
+        },
+        "4": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 8.5378,
+          "status": "quoted"
+        },
+        "5": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 9.277,
+          "status": "quoted"
+        },
+        "6": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 11.975,
+          "status": "quoted"
+        },
+        "7": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 2.9198,
+          "status": "quoted"
+        },
+        "8": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 5.3962,
+          "status": "quoted"
+        },
+        "9": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 2.2176,
+          "status": "quoted"
+        },
+        "10": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 3.7699,
+          "status": "quoted"
+        },
+        "11": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 9.0922,
+          "status": "quoted"
+        },
+        "12": {
+          "quoted_value": 0.42,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 10.4227,
+          "status": "quoted"
+        },
+        "13": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 26.5162,
+          "status": "quoted"
+        },
+        "14": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 32.6951,
+          "status": "quoted"
+        },
+        "15": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 39.5287,
+          "status": "quoted"
+        },
+        "16": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 45.1757,
+          "status": "quoted"
+        },
+        "17": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 50.0861,
+          "status": "quoted"
+        },
+        "18": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 59.0885,
+          "status": "quoted"
+        },
+        "19": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 39.5287,
+          "status": "quoted"
+        },
+        "20": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 25.9842,
+          "status": "quoted"
+        },
+        "21": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 30.199,
+          "status": "quoted"
+        },
+        "22": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 27.0481,
+          "status": "quoted"
+        },
+        "23": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 22.6288,
+          "status": "quoted"
+        },
+        "24": {
+          "quoted_value": 0.465,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 50.3316,
+          "status": "quoted"
+        },
+        "25": {
+          "quoted_value": 0.51,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 105.5578,
+          "status": "quoted"
+        },
+        "26": {
+          "quoted_value": 0.51,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 114.9826,
+          "status": "quoted"
+        },
+        "27": {
+          "quoted_value": 0.51,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 147.2064,
+          "status": "quoted"
+        },
+        "28": {
+          "quoted_value": 0.55,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 258.9884,
+          "status": "quoted"
+        },
+        "29": {
+          "quoted_value": 0.55,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 328.4908,
+          "status": "quoted"
+        },
+        "30": {
+          "quoted_value": 0.51,
+          "quoted_unit": "per kg",
+          "currency": "USD",
+          "inr_per_piece": 136.8391,
+          "status": "quoted"
+        }
+      },
+      "questionnaire": {
+        "Q1": "Yes, valid to 30 Nov 2027",
+        "Q2": "Yes",
+        "Q3": "Yes",
+        "Q4": "6000",
+        "Q5": "35",
+        "Q6": "No, LC at sight"
+      },
+      "clears_quality_gate": true
+    },
+    "maruti": {
+      "vendor": "Maruti Corrugators",
+      "format": "Phone photo of a printed rate card",
+      "freight": "excluded (ex-works, transport at actuals)",
+      "expected_low_confidence_lines": [
+        17
+      ],
+      "lines": {
+        "1": {
+          "quoted_value": 3.1,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 3.1,
+          "status": "quoted"
+        },
+        "2": {
+          "quoted_value": 5.05,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 5.05,
+          "status": "quoted"
+        },
+        "3": {
+          "quoted_value": 6.1,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 6.1,
+          "status": "quoted"
+        },
+        "4": {
+          "quoted_value": 8.15,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 8.15,
+          "status": "quoted"
+        },
+        "5": {
+          "quoted_value": 9.55,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 9.55,
+          "status": "quoted"
+        },
+        "6": {
+          "quoted_value": 12.05,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 12.05,
+          "status": "quoted"
+        },
+        "7": {
+          "quoted_value": 2.85,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 2.85,
+          "status": "quoted"
+        },
+        "8": {
+          "quoted_value": 5.3,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 5.3,
+          "status": "quoted"
+        },
+        "9": {
+          "quoted_value": 2.1,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 2.1,
+          "status": "quoted"
+        },
+        "10": {
+          "quoted_value": 3.7,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 3.7,
+          "status": "quoted"
+        },
+        "11": {
+          "quoted_value": 8.9,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 8.9,
+          "status": "quoted"
+        },
+        "12": {
+          "quoted_value": 10.3,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 10.3,
+          "status": "quoted"
+        },
+        "13": {
+          "quoted_value": 25.4,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 25.4,
+          "status": "quoted"
+        },
+        "14": {
+          "quoted_value": 32.75,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 32.75,
+          "status": "quoted"
+        },
+        "15": {
+          "quoted_value": 36.9,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 36.9,
+          "status": "quoted"
+        },
+        "16": {
+          "quoted_value": 42.65,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 42.65,
+          "status": "quoted"
+        },
+        "17": {
+          "quoted_value": 50.4,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 50.4,
+          "status": "quoted"
+        },
+        "18": {
+          "quoted_value": 62.0,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 62.0,
+          "status": "quoted"
+        },
+        "19": {
+          "quoted_value": 38.85,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 38.85,
+          "status": "quoted"
+        },
+        "20": {
+          "quoted_value": 24.55,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 24.55,
+          "status": "quoted"
+        },
+        "21": {
+          "quoted_value": 31.35,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 31.35,
+          "status": "quoted"
+        },
+        "22": {
+          "quoted_value": 25.3,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 25.3,
+          "status": "quoted"
+        },
+        "23": {
+          "quoted_value": 23.5,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 23.5,
+          "status": "quoted"
+        },
+        "24": {
+          "quoted_value": 50.7,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 50.7,
+          "status": "quoted"
+        },
+        "25": {
+          "quoted_value": 102.35,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 102.35,
+          "status": "quoted"
+        },
+        "26": {
+          "quoted_value": 109.6,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 109.6,
+          "status": "quoted"
+        },
+        "27": {
+          "quoted_value": 144.5,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 144.5,
+          "status": "quoted"
+        },
+        "28": {
+          "quoted_value": 250.0,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 250.0,
+          "status": "quoted"
+        },
+        "29": {
+          "quoted_value": 281.6,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 281.6,
+          "status": "quoted"
+        },
+        "30": {
+          "quoted_value": 141.4,
+          "quoted_unit": "per piece",
+          "currency": "INR",
+          "inr_per_piece": 141.4,
+          "status": "quoted"
+        }
+      },
+      "questionnaire": {
+        "Q1": "Claims yes, but the attached certificate expired 30 Jun 2026",
+        "Q2": "Yes",
+        "Q3": "Not answered",
+        "Q4": "600",
+        "Q5": "7",
+        "Q6": "No, 30 days"
+      },
+      "clears_quality_gate": false
+    },
+    "om_sai": {
+      "vendor": "Om Sai Cartons",
+      "format": "One-line email",
+      "freight": "excluded (amount not stated)",
+      "lines": {
+        "1": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 3.154,
+          "status": "quoted"
+        },
+        "2": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 5.624,
+          "status": "quoted"
+        },
+        "3": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 6.232,
+          "status": "quoted"
+        },
+        "4": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 8.778,
+          "status": "quoted"
+        },
+        "5": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 9.538,
+          "status": "quoted"
+        },
+        "6": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 12.312,
+          "status": "quoted"
+        },
+        "7": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 3.002,
+          "status": "quoted"
+        },
+        "8": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 5.548,
+          "status": "quoted"
+        },
+        "9": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 2.28,
+          "status": "quoted"
+        },
+        "10": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 3.876,
+          "status": "quoted"
+        },
+        "11": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 9.348,
+          "status": "quoted"
+        },
+        "12": {
+          "quoted_value": 38.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 10.716,
+          "status": "quoted"
+        },
+        "13": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 27.216,
+          "status": "quoted"
+        },
+        "14": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 33.558,
+          "status": "quoted"
+        },
+        "15": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 40.572,
+          "status": "quoted"
+        },
+        "16": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 46.368,
+          "status": "quoted"
+        },
+        "17": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 51.408,
+          "status": "quoted"
+        },
+        "18": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 60.648,
+          "status": "quoted"
+        },
+        "19": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 40.572,
+          "status": "quoted"
+        },
+        "20": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 26.67,
+          "status": "quoted"
+        },
+        "21": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 30.996,
+          "status": "quoted"
+        },
+        "22": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 27.762,
+          "status": "quoted"
+        },
+        "23": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 23.226,
+          "status": "quoted"
+        },
+        "24": {
+          "quoted_value": 42.0,
+          "quoted_unit": "per kg",
+          "currency": "INR",
+          "inr_per_piece": 51.66,
+          "status": "quoted"
+        },
+        "25": {
+          "quoted_value": null,
+          "quoted_unit": null,
+          "currency": "INR",
+          "inr_per_piece": 102.4,
+          "status": "assumed_same_as_last_year"
+        },
+        "26": {
+          "quoted_value": null,
+          "quoted_unit": null,
+          "currency": "INR",
+          "inr_per_piece": 111.21,
+          "status": "assumed_same_as_last_year"
+        },
+        "27": {
+          "quoted_value": null,
+          "quoted_unit": null,
+          "currency": "INR",
+          "inr_per_piece": 145.41,
+          "status": "assumed_same_as_last_year"
+        },
+        "28": {
+          "quoted_value": null,
+          "quoted_unit": null,
+          "currency": "INR",
+          "inr_per_piece": 250.42,
+          "status": "assumed_same_as_last_year"
+        },
+        "29": {
+          "quoted_value": null,
+          "quoted_unit": null,
+          "currency": "INR",
+          "inr_per_piece": 296.68,
+          "status": "assumed_same_as_last_year"
+        },
+        "30": {
+          "quoted_value": null,
+          "quoted_unit": null,
+          "currency": "INR",
+          "inr_per_piece": 139.22,
+          "status": "assumed_same_as_last_year"
+        }
+      },
+      "questionnaire": {
+        "Q1": "Claims yes, no certificate provided",
+        "Q2": "Not answered",
+        "Q3": "Not answered",
+        "Q4": "Not answered",
+        "Q5": "Not answered",
+        "Q6": "Not answered"
+      },
+      "clears_quality_gate": false
+    }
+  }
+}

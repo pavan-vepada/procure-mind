@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets and local state
+.env
+*.db
+
+# Frontend
+node_modules/
+web/dist/
+data/uploads/
+!data/seed/demo.db
+data/events/

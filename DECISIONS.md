@@ -72,3 +72,15 @@ A running log. Each entry is one decision and the reason, in words I can say out
 - **Analyst conversations are saved per RFx,** with a list on the left and a "New conversation" button, as in any chat assistant. A buyer asks about freight today and award splits tomorrow, and needs both.
 - **The login page is a sample buyer sign-in.** Only the shared password is checked; real accounts and roles are out of scope.
 - **A partly answered mandatory question makes a vendor "unverified", not "failed".** Only a clear "no" or contradicting evidence excludes a vendor.
+
+## Vendor risk
+- **The brief does not ask for vendor risk; I added it because price alone does not make an award defensible.** The cheapest vendor in the demo would depend on this contract for 64% of its turnover.
+- **Risk is built by rule from what each vendor sent, not from outside data and not by the model.** There is no credit-bureau feed in a prototype, and inventing one would break the rule that every number is traceable.
+- **Five dimensions:** quality and compliance, financial standing, supply and delivery, commercial terms, and quote firmness. Each is low, medium, high or "no information", with its reasons written out.
+- **Financial standing comes from two questions added to the RFx** (turnover and year established; credit rating). The model reads the answers; code converts and judges. The screen labels them "vendor-declared, not verified".
+- **The financial measure that matters to a buyer is dependency:** what share of the vendor's turnover this contract would be. Above 30% is high.
+- **"No information" is its own level, in grey.** A vendor who told us nothing is not low risk, and counts as at least medium overall.
+- **The overall level is the worst of the five, not an average.** One red should not be averaged away by four greens.
+- **It sits in the comparison grid as its own section, with an overall badge under each vendor's name,** because risk is weighed alongside price, not on a separate page.
+- **Colours are green, amber, red and grey, always with the word beside them,** so the meaning never rests on colour alone.
+- **The analyst knows each vendor's risk** and states it when an answer would award that vendor lines.

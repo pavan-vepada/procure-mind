@@ -32,6 +32,10 @@ Rules:
   duty, and conditional rebates. USD-derived prices also move with the exchange rate.
 - Prices are rupees per unit of the line (per piece, roll, etc.) before GST. Annual value = price x annual quantity.
 - Never apply a rebate or a freight estimate unless the buyer asks, and say so when you do.
+- Each vendor has a risk profile in the briefing below (overall level and five dimensions, built by rule from
+  what the vendor sent). Mention a vendor's risk when an answer would award it lines, and use it when the
+  buyer asks about risk. Financial figures in it are the vendor's own claims, not verified. "unknown" means
+  the vendor gave no information, which is not the same as low risk.
 - When asked for a recommendation, give one, with the reasons, the risks, and what to confirm with which
   vendor before signing. Do not hide behind "it depends".
 - Be brief and direct. Lead with the answer. Write large values as Rs. X.XX crore or Rs. X.X lakh, two decimals
@@ -233,13 +237,17 @@ def _run_tool(name: str, args: dict, artifacts: list) -> dict:
 
 def _briefing() -> str:
     """Current state of the data, rebuilt for every question because the buyer may have corrected cells."""
+    from app import comparison
     conn = db.connect()
     rows = []
+    risks = {v["vendor_id"]: v["risk"] for v in comparison.build(conn)["vendors"]}
     for v in conn.execute("SELECT * FROM vendors ORDER BY received_at"):
         counts = dict(conn.execute("SELECT status, COUNT(*) FROM quotes WHERE vendor_id = ? GROUP BY status", (v["vendor_id"],)).fetchall())
         review = conn.execute("SELECT COUNT(*) FROM quotes WHERE vendor_id = ? AND needs_review = 1", (v["vendor_id"],)).fetchone()[0]
         rows.append(f"- {v['vendor_id']} = {v['name']}: gate {v['quality_gate']}; freight {v['freight']}; "
-                    f"rebate {v['conditional_discount_pct'] or 'none'}; cells {counts}; needing review {review}")
+                    f"rebate {v['conditional_discount_pct'] or 'none'}; cells {counts}; needing review {review}\n"
+                    f"  risk {risks[v['vendor_id']]['overall'].upper()}: " + " | ".join(
+                        f"{d['name']} = {d['level']} ({' '.join(d['reasons'])})" for d in risks[v["vendor_id"]]["dimensions"]))
     return f"Data as of now (USD rate {db.get_fx(conn):g}):\n" + "\n".join(rows)
 
 

@@ -1,7 +1,8 @@
 """Builds the side-by-side comparison from the database. The screen and the analyst both read from here."""
 import json
+from datetime import date
 
-from app import db
+from app import db, risk
 
 
 def build(conn) -> dict:
@@ -30,6 +31,7 @@ def build(conn) -> dict:
             "needs_review": sum(c["needs_review"] for c in cells.values()),
             "assumed": sum(c["status"] == "assumed" for c in cells.values()),
         }
+        vendor["financials"] = json.loads(v["extraction"] or "{}").get("financials")
         vendors.append(vendor)
 
     # Like-for-like basket: only the lines every vendor priced, so totals can be compared fairly.
@@ -37,6 +39,9 @@ def build(conn) -> dict:
               if vendors and all(v["cells"].get(l["line_no"], {}).get("price_inr") is not None for v in vendors)]
     for v in vendors:
         v["summary"]["common_basket_inr"] = sum(v["cells"][n]["price_inr"] * qty[n] for n in common)
-    return {"rfx": db.get_rfx(conn), "fx_usd_inr": db.get_fx(conn), "lines": lines, "vendors": vendors,
+    rfx, fx = db.get_rfx(conn), db.get_fx(conn)
+    for v in vendors:
+        v["risk"] = risk.assess(rfx, v, v["financials"], lines, fx, date.today().year)
+    return {"rfx": rfx, "fx_usd_inr": fx, "lines": lines, "vendors": vendors,
             "common_lines": common,
             "last_year_total_inr": sum((l["last_year_price_inr"] or 0) * (l["annual_qty"] or 0) for l in lines)}

@@ -47,6 +47,16 @@
       "id": "Q6",
       "question": "Do you accept payment at 60 days from invoice? If not, state your terms.",
       "mandatory": false
+    },
+    {
+      "id": "Q7",
+      "question": "State your latest annual turnover and the year you were established.",
+      "mandatory": false
+    },
+    {
+      "id": "Q8",
+      "question": "What is your current credit rating, if rated? Name the agency.",
+      "mandatory": false
     }
   ],
   "line_items": [

@@ -103,10 +103,12 @@ def export_comparison():
             row += [c.get("price_inr"), (c.get("status") or "") + (", needs review" if c.get("needs_review") else "")]
         ws.append(row)
     terms = wb.create_sheet("Vendors")
-    terms.append(["Vendor", "Quality gate", "Why", "Freight", "Freight note", "Conditional rebate %", "Rebate condition",
+    terms.append(["Vendor", "Overall risk", "Risk detail", "Quality gate", "Why", "Freight", "Freight note", "Conditional rebate %", "Rebate condition",
                   "Payment", "Lead time (days)", "Validity (days)", "Lines priced", "Total priced (Rs.)"])
     for v in vendors:
-        terms.append([v["name"], v["quality_gate"], v["quality_gate_reason"], v["freight"], v["freight_note"],
+        terms.append([v["name"], v["risk"]["overall"] + (" (incomplete information)" if v["risk"]["incomplete"] else ""),
+                      "; ".join(f"{d['name']}: {d['level']}. {' '.join(d['reasons'])}" for d in v["risk"]["dimensions"]),
+                      v["quality_gate"], v["quality_gate_reason"], v["freight"], v["freight_note"],
                       v["conditional_discount_pct"], v["conditional_discount_condition"], v["payment_terms"],
                       v["lead_time_days"], v["validity_days"], v["summary"]["lines_priced"], round(v["summary"]["total_inr"])])
     notes = wb.create_sheet("Caveats")

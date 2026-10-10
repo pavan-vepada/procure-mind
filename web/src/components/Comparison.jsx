@@ -2,7 +2,7 @@ import { AlertTriangle, Check, Download, FileText, Minus, UserCheck, X } from "l
 import { useState } from "react";
 import { api } from "../api.js";
 import { crore, day, inr, itemName } from "../format.js";
-import { GateBadge, ModePill, Pill } from "./bits.jsx";
+import { GateBadge, ModePill, Pill, RiskBadge } from "./bits.jsx";
 import CellDrawer from "./CellDrawer.jsx";
 
 const FREIGHT = {
@@ -130,6 +130,9 @@ export default function Comparison({ data, reload }) {
                     <span title={v.quality_gate_reason}><GateBadge gate={v.quality_gate} short /></span>
                     <span className="text-[11px] font-normal text-slate-500">{day(v.received_at)}</span>
                   </div>
+                  <div className="mt-1.5" title="Overall vendor risk. See the Vendor risk section below for the reasons.">
+                    <RiskBadge level={v.risk.overall} prefix="Risk: " />
+                  </div>
                 </th>
               ))}
             </tr>
@@ -239,6 +242,31 @@ export default function Comparison({ data, reload }) {
                 </td>
               ))}
             </tr>
+
+            <SectionRow title="Vendor risk" span={span} note="Built by rule from what each vendor sent. The overall level is the worst of the five; no information is never treated as low risk." />
+            <tr>
+              <LabelCell sub="Worst of the five dimensions below">Overall risk</LabelCell>
+              {vendors.map((v) => (
+                <td key={v.vendor_id} className="border-b border-l border-slate-100 bg-white px-3 py-2 text-xs text-slate-600">
+                  <RiskBadge level={v.risk.overall} />
+                  {v.risk.incomplete && <div className="mt-1 text-slate-500">Some information is missing.</div>}
+                </td>
+              ))}
+            </tr>
+            {(vendors[0]?.risk.dimensions || []).map((dimension, i) => (
+              <tr key={dimension.name}>
+                <LabelCell sub={dimension.note}>{dimension.name}</LabelCell>
+                {vendors.map((v) => {
+                  const d = v.risk.dimensions[i];
+                  return (
+                    <td key={v.vendor_id} className="border-b border-l border-slate-100 bg-white px-3 py-2 align-top text-xs text-slate-600" title={d.reasons.join(" ")}>
+                      <RiskBadge level={d.level} />
+                      <ul className="mt-1 space-y-0.5">{d.reasons.map((r, j) => <li key={j} className="line-clamp-3">{r}</li>)}</ul>
+                    </td>
+                  );
+                })}
+              </tr>
+            ))}
 
             <SectionRow title="Line items" span={span} note={onlyReview ? `showing ${shown.length} of ${lines.length}` : ""} />
             {shown.map((l) => {
